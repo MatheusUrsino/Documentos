@@ -69,7 +69,7 @@
 @media (max-width: 500px) {
   .cardStatic {
     width: 90%; /* A largura do card ocupa 90% */
-    height: 80vh; /* A altura do card é aumentada */
+    height: 40vh; /* A altura do card é aumentada */
     padding: 5vw; /* Aumenta o padding interno */
   }
 

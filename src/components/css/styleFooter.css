@@ -23,19 +23,28 @@
       }
 
       @media (max-width: 768px) {
+        .footer
+      {
+          height: 60vh;
+      }
           .erro {
               width: 7rem;
           }
           
       }
-
+      
       .texto-cuidado {
           font-size: 2rem;
           font-weight: 700;
       }
 
       @media (max-width: 768px) {
+        .footer
+        {
+            height: 60vh;
+        }
           .texto-cuidado {
+
               width: 100%;
               font-size: 3vw;
           }

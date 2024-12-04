@@ -107,4 +107,12 @@ height: 1vw;
   .contentSection {
     grid-template-columns: 1fr; /* 1 coluna */
   }
+  .airplane {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -5vw auto 0 auto; /* Centraliza horizontalmente */
+  }
 }
