@@ -1,0 +1,44 @@
+.footer {
+
+  background-image: url("/fundo2.png");
+  height: 100vh;
+  width: 100%;
+  margin-top: 10vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .rodap-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 70%;
+      margin-top: 20rem;
+
+      .erro {
+          width: 10rem;
+          height: auto;
+      }
+
+      @media (max-width: 768px) {
+          .erro {
+              width: 7rem;
+          }
+          
+      }
+
+      .texto-cuidado {
+          font-size: 2rem;
+          font-weight: 700;
+      }
+
+      @media (max-width: 768px) {
+          .texto-cuidado {
+              width: 100%;
+              font-size: 3vw;
+          }
+      }
+  }
+}
